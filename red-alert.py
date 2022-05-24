@@ -1,4 +1,3 @@
-import pgzrun
 import random
 
 #constants
@@ -130,5 +129,3 @@ def shuffle():
             animations.append(animation)
 
 clock.schedule_interval(shuffle, 0.5)
-
-pgzrun.go()
